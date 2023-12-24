@@ -14,6 +14,11 @@ finish_line.pendown()
 finish_line.forward(800)
 f_line_pos = 400
 
+
+def winner(player_pos):
+    if player_pos == f_line_pos:
+        return True
+
 # Creating 6 instances of Turtle
 def create_turtle(colour, x_pos, y_pos):
     player = Turtle()
