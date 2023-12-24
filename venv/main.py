@@ -2,9 +2,18 @@ import turtle
 from turtle import Turtle, Screen
 from random import randint
 
+# Draw finish line
+finish_line = Turtle()
+finish_line.pensize(3)
+finish_line.hideturtle()
+finish_line.penup()
+finish_line.speed('fastest')
+finish_line.setposition(400, -400)
+finish_line.left(90)
+finish_line.pendown()
+finish_line.forward(800)
+
 # Creating 6 instances of Turtle
-
-
 def create_turtle(colour, x_pos, y_pos):
     player = Turtle()
     player.speed('normal')
@@ -27,5 +36,4 @@ cyan = create_turtle('cyan', -450, 300)
 guess_the_winner = turtle.textinput("Guess who will win", " ")
 print(guess_the_winner)
 screen = Screen()
-screen.title("Welcome to the Turtle Race!")
 screen.exitonclick()
