@@ -1,3 +1,4 @@
+import turtle
 from turtle import Turtle, Screen
 from random import randint
 
@@ -57,6 +58,7 @@ cyan.color('cyan')
 cyan.penup()
 cyan.setposition(-450, 300)
 
-
+guess_the_winner = turtle.textinput("Guess who will win", " ")
+print(guess_the_winner)
 screen = Screen()
 screen.exitonclick()
