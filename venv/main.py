@@ -16,18 +16,19 @@ f_line_pos = 400
 
 
 def winner(player_pos):
-    if player_pos == f_line_pos:
+    if player_pos >= f_line_pos:
         return True
+
 
 # Creating 6 instances of Turtle
 def create_turtle(colour, x_pos, y_pos):
-    player = Turtle()
+    player = Turtle(shape='turtle')
     player.speed('normal')
     player.shapesize(3)
     player.color(colour)
-    player.shape('turtle')
     player.penup()
     player.setposition(x_pos, y_pos)
+    return player.fillcolor()
 
 
 red = create_turtle('red', -450, 0)
@@ -39,7 +40,8 @@ violet = create_turtle('violet', -450, 200)
 cyan = create_turtle('cyan', -450, 300)
 
 
-guess_the_winner = turtle.textinput("Guess who will win", " ")
+guess_the_winner = turtle.textinput("Make your bet", "Guess wich turtle will "
+                                                     "win the race: ")
 print(guess_the_winner)
 screen = Screen()
 screen.exitonclick()
