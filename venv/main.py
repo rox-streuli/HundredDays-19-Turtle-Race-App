@@ -12,6 +12,7 @@ finish_line.setposition(400, -400)
 finish_line.left(90)
 finish_line.pendown()
 finish_line.forward(800)
+f_line_pos = 400
 
 # Creating 6 instances of Turtle
 def create_turtle(colour, x_pos, y_pos):
