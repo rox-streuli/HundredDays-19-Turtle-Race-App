@@ -14,13 +14,13 @@ def create_turtle(colour, x_pos, y_pos):
     player.setposition(x_pos, y_pos)
 
 
-create_turtle('red', -450, 0)
-create_turtle('blue', -450, -100)
-create_turtle('yellow', -450, -200)
-create_turtle('orange', -450, -300)
-create_turtle('green', -450, 100)
-create_turtle('violet', -450, 200)
-create_turtle('cyan', -450, 300)
+red = create_turtle('red', -450, 0)
+blue = create_turtle('blue', -450, -100)
+yellow = create_turtle('yellow', -450, -200)
+orange = create_turtle('orange', -450, -300)
+green = create_turtle('green', -450, 100)
+violet = create_turtle('violet', -450, 200)
+cyan = create_turtle('cyan', -450, 300)
 
 
 guess_the_winner = turtle.textinput("Guess who will win", " ")
