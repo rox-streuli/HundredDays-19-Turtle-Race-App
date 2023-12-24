@@ -7,6 +7,7 @@ from random import randint
 
 def create_turtle(colour, x_pos, y_pos):
     player = Turtle()
+    player.speed('normal')
     player.shapesize(3)
     player.color(colour)
     player.shape('turtle')
