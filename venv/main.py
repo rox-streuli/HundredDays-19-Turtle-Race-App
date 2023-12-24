@@ -3,62 +3,28 @@ from turtle import Turtle, Screen
 from random import randint
 
 # Creating 6 instances of Turtle
-red = Turtle()
-red.shapesize(3)
-red.shape('turtle')
-red.color('red')
-red.penup()
-red.setposition(-450, 0)
 
 
-blue = Turtle()
-blue.shapesize(3)
-blue.shape('turtle')
-blue.color('blue')
-blue.penup()
-blue.setposition(-450, -100)
+def create_turtle(colour, x_pos, y_pos):
+    player = Turtle()
+    player.shapesize(3)
+    player.color(colour)
+    player.shape('turtle')
+    player.penup()
+    player.setposition(x_pos, y_pos)
 
 
-yellow = Turtle()
-yellow.shapesize(3)
-yellow.shape('turtle')
-yellow.color('yellow')
-yellow.penup()
-yellow.setposition(-450, -200)
+create_turtle('red', -450, 0)
+create_turtle('blue', -450, -100)
+create_turtle('yellow', -450, -200)
+create_turtle('orange', -450, -300)
+create_turtle('green', -450, 100)
+create_turtle('violet', -450, 200)
+create_turtle('cyan', -450, 300)
 
-
-orange = Turtle()
-orange.shapesize(3)
-orange.shape('turtle')
-orange.color('orange')
-orange.penup()
-orange.setposition(-450, -300)
-
-
-green = Turtle()
-green.shapesize(3)
-green.shape('turtle')
-green.color('green')
-green.penup()
-green.setposition(-450, 100)
-
-
-violet = Turtle()
-violet.shapesize(3)
-violet.shape('turtle')
-violet.color('violet')
-violet.penup()
-violet.setposition(-450, 200)
-
-
-cyan = Turtle()
-cyan.shapesize(3)
-cyan.shape('turtle')
-cyan.color('cyan')
-cyan.penup()
-cyan.setposition(-450, 300)
 
 guess_the_winner = turtle.textinput("Guess who will win", " ")
 print(guess_the_winner)
 screen = Screen()
+screen.title("Welcome to the Turtle Race!")
 screen.exitonclick()
