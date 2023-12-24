@@ -1,6 +1,7 @@
 from turtle import Turtle, Screen
 from random import randint
 
+# Creating 6 instances of Turtle
 red = Turtle()
 red.shapesize(3)
 red.shape('turtle')
