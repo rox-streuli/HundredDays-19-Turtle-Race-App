@@ -59,6 +59,7 @@ create_turtle('green', -450, 100)
 create_turtle('violet', -450, 200)
 create_turtle('cyan', -450, 300)
 
-turtle.textinput("Make your bet", "Guess wich turtle will win the race: ")
+# store user's bet
+bet = turtle.textinput("Make your bet", "Guess wich turtle will win the race: ")
 
 screen.exitonclick()
