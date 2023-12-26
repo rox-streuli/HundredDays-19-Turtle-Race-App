@@ -46,13 +46,15 @@ for indx, colour in enumerate(colours):
     player = Turtle(shape='turtle')
     player.color(colour)
     player.shapesize(3)
-    player.speed('fast')
+    player.speed('normal')
     player.penup()
     player.setposition(x=-450, y=positions[indx])
     turtles_in_race.append(player)
 
 # store user's bet
-bet = turtle.textinput("Make your bet", "Guess wich turtle will win the race: ")
+bet = ''
+while bet not in ['cyan', 'pink', 'green', 'red', 'blue', 'yellow', 'orange']:
+    bet = turtle.textinput("Make your bet", "Guess wich turtle will win the race: ")
 
 start_race = False
 winner = ""
@@ -61,7 +63,7 @@ if bet:
 
 while start_race:
     for player in turtles_in_race:
-        run = randint(0, 10)
+        run = randint(0, 15)
         player.forward(run)
         if player.xcor() >= f_line_pos:
             winner = player.fillcolor()
