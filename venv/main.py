@@ -1,5 +1,6 @@
 import turtle
 from turtle import Turtle, Screen
+from random import randint
 
 # create screen object and set colour bkacground
 screen = Screen()
@@ -34,19 +35,10 @@ finish_line.pendown()
 finish_line.forward(800)
 f_line_pos = 400
 
-
-def winner(player_pos):
-    if player_pos >= f_line_pos:
-        return True
-
-
-def user_won(player, user_bet):
-    if player == user_bet:
-        return True
-
-
+# Turtles attributes
 colours = ['cyan', 'pink', 'green', 'red', 'blue', 'yellow', 'orange']
 positions = [0, -100, -200, -300, 100, 200, 300]
+
 turtles_in_race = []
 # Creating 6 instances of Turtle
 
@@ -61,5 +53,27 @@ for indx, colour in enumerate(colours):
 
 # store user's bet
 bet = turtle.textinput("Make your bet", "Guess wich turtle will win the race: ")
+
+start_race = False
+winner = ""
+if bet:
+    start_race = True
+
+while start_race:
+    for player in turtles_in_race:
+        run = randint(0, 10)
+        player.forward(run)
+        if player.xcor() >= f_line_pos:
+            winner = player.fillcolor()
+            start_race = False
+
+runners.write(" ")
+runners.goto(-100, 0)
+if winner == bet:
+    runners.write(f"You Won! \nThe winner is {winner.upper()}",
+                  align='center',  font=('verdana', 25, 'normal'))
+else:
+    runners.write(f"Sorry, you lose. \nThe winner is {winner.upper()}",
+                  align='center',  font=('verdana', 25, 'normal'))
 
 screen.exitonclick()
