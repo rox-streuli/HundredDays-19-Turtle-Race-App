@@ -39,9 +39,6 @@ green = create_turtle('green', -450, 100)
 violet = create_turtle('violet', -450, 200)
 cyan = create_turtle('cyan', -450, 300)
 
-
-guess_the_winner = turtle.textinput("Make your bet", "Guess wich turtle will "
-                                                     "win the race: ")
-print(guess_the_winner)
+turtle.textinput("Make your bet", "Guess wich turtle will win the race: ")
 screen = Screen()
 screen.exitonclick()
