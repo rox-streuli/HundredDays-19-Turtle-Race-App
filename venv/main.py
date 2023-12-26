@@ -40,6 +40,11 @@ def winner(player_pos):
         return True
 
 
+def user_won(player, user_bet):
+    if player == user_bet:
+        return True
+
+
 # Creating 6 instances of Turtle
 def create_turtle(colour, x_pos, y_pos):
     player = Turtle(shape='turtle')
