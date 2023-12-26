@@ -1,6 +1,26 @@
 import turtle
 from turtle import Turtle, Screen
-from random import randint
+
+# create screen object and set colour bkacground
+screen = Screen()
+screen.bgcolor('darkseagreen')
+
+# Write a title
+banner = Turtle()
+banner.hideturtle()
+banner.penup()
+banner.goto(0, 400)
+banner.color('darkred')
+banner.write("Welcome Turtle Race", align='center',  font=('verdana', 25,
+                                                           'normal'))
+# write turte colours
+runners = Turtle()
+runners.hideturtle()
+runners.penup()
+runners.goto(-300, -400)
+runners.color('black')
+runners.write("Turtles: cyan, pink, green, red, blue, yellow, orange",
+              align='left',  font=('verdana', 13, 'normal'))
 
 # Draw finish line
 finish_line = Turtle()
@@ -31,14 +51,14 @@ def create_turtle(colour, x_pos, y_pos):
     return player.fillcolor()
 
 
-red = create_turtle('red', -450, 0)
-blue = create_turtle('blue', -450, -100)
-yellow = create_turtle('yellow', -450, -200)
-orange = create_turtle('orange', -450, -300)
-green = create_turtle('green', -450, 100)
-violet = create_turtle('violet', -450, 200)
-cyan = create_turtle('cyan', -450, 300)
+create_turtle('red', -450, 0)
+create_turtle('blue', -450, -100)
+create_turtle('yellow', -450, -200)
+create_turtle('orange', -450, -300)
+create_turtle('green', -450, 100)
+create_turtle('violet', -450, 200)
+create_turtle('cyan', -450, 300)
 
 turtle.textinput("Make your bet", "Guess wich turtle will win the race: ")
-screen = Screen()
+
 screen.exitonclick()
