@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net" modified="2023-12-28T13:47:22.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="y239vevqX_c4xImea54f" version="22.1.15" type="google">
+  <diagram name="Page-1" id="4lUUM31tIou5uWZYw8M8">
+    <mxGraphModel dx="1709" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oKi6KKxRg17L0RRegSbH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="oKi6KKxRg17L0RRegSbH-1" target="oKi6KKxRg17L0RRegSbH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="oKi6KKxRg17L0RRegSbH-2" target="oKi6KKxRg17L0RRegSbH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-2" value="create Screen() object" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="oKi6KKxRg17L0RRegSbH-4" target="oKi6KKxRg17L0RRegSbH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-4" value="Create a title as a Turtle() object" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="oKi6KKxRg17L0RRegSbH-7" target="oKi6KKxRg17L0RRegSbH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-7" value="Create message as Turtle() object with the turtle names&lt;br&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="oKi6KKxRg17L0RRegSbH-9" target="oKi6KKxRg17L0RRegSbH-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-9" value="Draw finish line&lt;br&gt;set f_line_pos" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="oKi6KKxRg17L0RRegSbH-11" target="oKi6KKxRg17L0RRegSbH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-11" value="Create colours, and positions variables.&lt;br&gt;Create turtles_in_race list" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="oKi6KKxRg17L0RRegSbH-13" target="oKi6KKxRg17L0RRegSbH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-13" value="Create 6 turle objects" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="oKi6KKxRg17L0RRegSbH-15" target="oKi6KKxRg17L0RRegSbH-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-15" value="Store user&#39;s bet with textinput()" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="660" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#3700CC;fontColor=default;fillColor=#6a00ff;" edge="1" parent="1" source="oKi6KKxRg17L0RRegSbH-17" target="oKi6KKxRg17L0RRegSbH-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-17" value="Start race:&lt;br&gt;.forward(random) one turtle at the time &lt;br&gt;turtle" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="640" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A50040;fontColor=default;fillColor=#d80073;" edge="1" parent="1" source="oKi6KKxRg17L0RRegSbH-19" target="oKi6KKxRg17L0RRegSbH-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-19" value="If turtle reach finish line" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="660" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#BD7000;fontColor=default;fillColor=#f0a30a;" edge="1" parent="1" source="oKi6KKxRg17L0RRegSbH-21" target="oKi6KKxRg17L0RRegSbH-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#BD7000;fontColor=default;fillColor=#f0a30a;" edge="1" parent="1" source="oKi6KKxRg17L0RRegSbH-21" target="oKi6KKxRg17L0RRegSbH-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-21" value="bet == winner" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="500" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-23" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="628" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-24" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#3700CC;fontColor=default;fillColor=#6a00ff;" edge="1" parent="1" source="oKi6KKxRg17L0RRegSbH-19" target="oKi6KKxRg17L0RRegSbH-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="635" y="800" />
+              <mxPoint x="460" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-25" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="748" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-28" value="You lose" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="325" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-30" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="438" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-31" value="You win" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="515" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oKi6KKxRg17L0RRegSbH-33" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#1D3557;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="518" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
