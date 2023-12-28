@@ -5,8 +5,18 @@ from turtle import Turtle, Screen
 # create screen object and set colour bkacground
 screen = Screen()
 
-play = True
-if play:
+
+def quit_game():
+    turtle.bye()
+
+
+def play():
+    play_again()
+
+
+def play_again():
+    # clear screen and start
+    turtle.clearscreen()
     screen.bgcolor('darkseagreen')
 
     # Write a title
@@ -68,7 +78,7 @@ if play:
 
     while start_race:
         for player in turtles_in_race:
-            run = randint(0, 15)
+            run = randint(0, 20)
             player.forward(run)
             if player.xcor() >= f_line_pos:
                 winner = player.fillcolor()
@@ -76,6 +86,8 @@ if play:
 
     runners.write(" ")
     runners.goto(-100, 0)
+    # todo: there is a bug. winner message deleted before I managed to read it
+    screen.delay(500)
     if winner == bet:
         runners.write(f"You Won! \nThe winner is {winner.upper()}",
                       align='center', font=('verdana', 25, 'normal'))
@@ -83,5 +95,19 @@ if play:
         runners.write(f"Sorry, you lose. \nThe winner is {winner.upper()}",
                       align='center', font=('verdana', 25, 'normal'))
 
+    turtle.listen()
+    screen.delay(500)
+    runners.clear()
+    runners.write("Do you want to play again?\nPress 'y' to continue or 'q' "
+                  "to finish game.",
+                  align='center', font=('verdana', 25, 'normal'))
+    screen.delay(1)
+    turtle.onkey(quit_game, key='q')
+    turtle.onkey(play, key='y')
+
+
+if __name__ == "__main__":
+    screen.bgcolor('darkseagreen')
+    play_again()
 
 screen.exitonclick()
