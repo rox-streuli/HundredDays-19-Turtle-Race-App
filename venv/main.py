@@ -18,6 +18,7 @@ def play_again():
     # clear screen and start
     turtle.clearscreen()
     screen.bgcolor('darkseagreen')
+    screen.title('Turtle Race Game')
 
     # Write a title
     banner = Turtle()
@@ -67,7 +68,7 @@ def play_again():
     # store user's bet
     bet = ''
     while bet not in ['cyan', 'pink', 'green', 'red', 'blue', 'yellow',
-                      'orange']:
+                      'orange', None]:
         bet = turtle.textinput("Make your bet",
                                "Guess wich turtle will win the race: ")
 
